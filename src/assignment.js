@@ -28,21 +28,14 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-  // let count = 0
-  // for(let i=0; i<arrayOfNumbers.length; i++){
-  //   if(arrayOfNumbers[i] %2 ===0){
-  //     count+=1
-  //   }
-  // }
-  // return count
-  // //   return arrayOfNumbers.length;
-  letyar isEvenNumber = [];
-  arrayOfNumber.forEach((number) => {
-    if(number % 2 === 0){
-      isEvenNumber.push(number);
+  let count = 0
+  for(let i=0; i<arrayOfNumbers.length; i++){
+    if(arrayOfNumbers[i] %2 ===0){
+      count+=1
     }
-  });
-   return isEvenNumber.length
+  }
+  return count
+  //   return arrayOfNumbers.length;
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
